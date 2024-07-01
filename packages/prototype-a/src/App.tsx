@@ -1,6 +1,6 @@
 import { css, ThemeProvider } from '@emotion/react';
 
-import { Link, Paper } from '@common/components';
+import { Button, Link, Paper } from '@common/components';
 import { colors, theme } from '@common/styles';
 
 import serviceVision from './service-vision.jpeg';
@@ -34,7 +34,10 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Paper css={styles}>
-        <Link href="https://www.woowahan.com/company/culture#%EC%9A%B0%EC%95%84%ED%95%9C%20%EB%B9%84%EC%A0%84">
+        <Link
+          underline="hover"
+          href="https://www.woowahan.com/company/culture#%EC%9A%B0%EC%95%84%ED%95%9C%20%EB%B9%84%EC%A0%84"
+        >
           <img
             className="service-vision"
             src={serviceVision}
@@ -53,6 +56,9 @@ const App = () => {
         <Link underline="hover" href="https://www.baeminriders.kr/connect">
           배민커넥트 바로가기
         </Link>
+        <Button disabled variant="outlined">
+          Enable
+        </Button>
       </Paper>
     </ThemeProvider>
   );

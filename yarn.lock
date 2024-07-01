@@ -1644,7 +1644,7 @@ __metadata:
     jest: ^27.4.7
     jest-canvas-mock: ^2.3.1
     prop-types: ^15.8.1
-    react: ^17.0.2
+    react: ^18.2.0
     react-dom: ^17.0.2
     react-router-dom: ^6.2.1
     react-transition-group: ^4.4.2
@@ -1670,7 +1670,7 @@ __metadata:
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
     babel-loader: ^8.2.3
-    react: ^17.0.2
+    react: ^18.2.0
     react-dom: ^17.0.2
     typescript: ^4.5.4
     typescript-styled-plugin: ^0.18.2
@@ -12643,7 +12643,7 @@ __metadata:
     lint-staged: ^12.1.7
     prettier: ^2.5.1
     process: ^0.11.10
-    react: ^17.0.2
+    react: ^18.2.0
     typescript: ^4.5.4
   languageName: unknown
   linkType: soft
@@ -14109,7 +14109,7 @@ __metadata:
     "@types/react-transition-group": ^4.4.4
     babel-loader: ^8.2.3
     html-webpack-plugin: ^5.5.0
-    react: ^17.0.2
+    react: ^18.2.0
     react-dom: ^17.0.2
     react-hook-form: ^7.22.5
     react-router-dom: ^6.2.1
@@ -14143,7 +14143,7 @@ __metadata:
     babel-loader: ^8.2.3
     css-loader: ^6.7.1
     html-webpack-plugin: ^5.5.0
-    react: ^17.0.2
+    react: ^18.2.0
     react-dom: ^17.0.2
     react-hook-form: ^7.22.5
     react-router-dom: ^6.2.1
@@ -14650,13 +14650,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
+"react@npm:^18.2.0":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
   dependencies:
     loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
+  checksum: a27bcfa8ff7c15a1e50244ad0d0c1cb2ad4375eeffefd266a64889beea6f6b64c4966c9b37d14ee32d6c9fcd5aa6ba183b6988167ab4d127d13e7cb5b386a376
   languageName: node
   linkType: hard
 

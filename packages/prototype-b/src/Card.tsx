@@ -5,7 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 
-import { Button, Form, Input, Select } from '@common/components';
+import { Button, Form, Input, Link, Select } from '@common/components';
 import { colors } from '@common/styles';
 
 const schema = z.object({
@@ -96,6 +96,7 @@ const Card = () => {
               setText(data);
             })}
           />
+          <Link to="asdasd">123123x</Link>
         </Form>
       </div>
     </div>
