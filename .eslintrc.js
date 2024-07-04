@@ -90,6 +90,7 @@ module.exports = {
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/no-floating-promises': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
       },
       parserOptions: {
         project: ['./tsconfig.json', './packages/**/tsconfig.json'],

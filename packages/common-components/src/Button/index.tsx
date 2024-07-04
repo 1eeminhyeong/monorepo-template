@@ -76,6 +76,8 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       [theme, colors, color]
     );
 
+    const TestFun = (t: any) => {};
+
     const invertedStyle = useMemo(
       () => css`
         color: ${colors[color]};
